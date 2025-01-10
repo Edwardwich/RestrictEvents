@@ -1,7 +1,7 @@
 RestrictEvents
 ==============
 
-[![Build Status](https://github.com/acidanthera/RestrictEvents/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/RestrictEvents/actions) [![Scan Status](https://scan.coverity.com/projects/22252/badge.svg?flat=1)](https://scan.coverity.com/projects/22252)
+[![Build Status](https://github.com/acidanthera/RestrictEvents/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/acidanthera/RestrictEvents/actions) [![Scan Status](https://scan.coverity.com/projects/22252/badge.svg?flat=1)](https://scan.coverity.com/projects/22252)
 
 [Lilu](https://github.com/acidanthera/Lilu) Kernel extension for blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features restricted to other hardware. The list of blocks currently includes:
 
@@ -20,7 +20,7 @@ _Note_: Apple CPU identifier must be `0x0F01` for 8 core CPUs or higher and `0x0
 #### Boot arguments
 - `-revoff` (or `-liluoff`) to disable
 - `-revdbg` (or `-liludbgall`) to enable verbose logging (in DEBUG builds)
-- `-revbeta` (or `-lilubetaall`) to enable on macOS older than 10.8 or newer than 14
+- `-revbeta` (or `-lilubetaall`) to enable on macOS older than 10.8 or newer than 15
 - `-revproc` to enable verbose process logging (in DEBUG builds)
 - `revpatch=value` to enable patching as comma separated options. Default value is `auto`.
   - `memtab` - enable memory tab in System Information on MacBookAir and MacBookPro10,x platforms
